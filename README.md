@@ -14,7 +14,6 @@ Original App Design Project - README Template
 Yum Me! is a recipe generator that suggests dishes you should make for a day based on your provided ingredients.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Food Suggestion.
 - **Mobile:** This app will be developed for the mobile platform.
 - **Story:** Users add their dietary restriction and the ingredients in their fridge. Yum Me! will suggest recipes that contain those list 
@@ -28,13 +27,13 @@ Yum Me! is a recipe generator that suggests dishes you should make for a day bas
 
 **Required Must-have Stories**
 
-[] Users can sign up and create an account.
-[] Users can add their dietary preferences.
-[] Users can add their grocery list and preferred items in their pantry.
-[] Users can get daily recipes depending on what items are expiring closer to the date.
-[] Users can create their own recipes (add in the future).
-[] Users can share recipes with others.
-[] Users can rate recipes.
+[ ] Users can sign up and create an account.
+[ ] Users can add their dietary preferences.
+[ ] Users can add their grocery list and preferred items in their pantry.
+[ ] Users can get daily recipes depending on what items are expiring closer to the date.
+[ ] Users can create their own recipes (add in the future).
+[ ] Users can share recipes with others.
+[ ] Users can rate recipes.
 
 
 **Optional Nice-to-have Stories**
@@ -47,8 +46,8 @@ Yum Me! is a recipe generator that suggests dishes you should make for a day bas
 * Login/Sign up screen
 * Diet restriction screen.
 * Items input screen.
-* Recipe suggestion screen.
-* Profile
+* Recipes suggestion screen.
+* Profile.
 
 ### 3. Navigation
 
@@ -80,6 +79,10 @@ Yum Me! is a recipe generator that suggests dishes you should make for a day bas
 ### Models
 [Add table of models]
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- Authentication with Firebase Firestore.
+- Dietary restriction:
+	- For new users: Add their dietary restriction to Firestore.
+	- For existing users: Fetch their dietary restriction from Firestore.
+- Add the items they have for the day to Firestore.
+- Fetch all the recipe from Firebase and filter them based on those ingredient.
+- Add/update/delete users' profile through the setting section.
