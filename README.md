@@ -38,7 +38,7 @@ Yum Me! is a recipe generator that suggests dishes you should make for a day bas
 
 **Optional Nice-to-have Stories**
 
-* We should have an image recognizer so that users can capture a photo of their fridge's shelves then Yum Me! will recognize the ingredients available and suggest recipes based on those.
+* We should have an image recognizer so that users can capture a photo of their fridge's shelves or the recipt from their grocery shopping then Yum Me! will recognize the ingredients available and suggest recipes based on those.
 * Users can add their calories limit for the day and Yum Me! will suggest dishes within that limit.
 
 ### 2. Screen Archetypes
