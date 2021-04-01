@@ -14,9 +14,9 @@ Original App Design Project - README Template
 Yum Me! is a recipe generator that suggests dishes you should make for a day based on your provided ingredients.
 
 ### App Evaluation
-- **Category:** Food Suggestion.
+- **Category:** Recipes Suggestion.
 - **Mobile:** This app will be developed for the mobile platform.
-- **Story:** Users add their dietary restriction and the ingredients in their fridge. Yum Me! will suggest recipes that contain those list 
+- **Story:** Users add their dietary restrictions and the pantry ingredients to a list. Yum Me! will suggest recipes that fit the dietary restrictions and entail pantry ingredients. 
 - **Market:** Yum Me! is an app designed for anyone with a daily struggle of deciding what to cook for the day.
 - **Habit:** This app can be used daily at the beginning of the user’s day to prep for their 3 meals for the day.
 - **Scope:** Users can include anyone who is able to cook and faces the daily struggle of “what should I eat today”.
