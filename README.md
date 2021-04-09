@@ -66,7 +66,6 @@ Yum Me! is a recipe generator that suggests dishes you should make for a day bas
 
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 <img src="http://g.recordit.co/LVqFme6tJo.gif" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
