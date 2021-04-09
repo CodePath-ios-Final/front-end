@@ -8,7 +8,7 @@
 
 ## Overview
 ### Description
-Yum Me! is a recipe generator that suggests dishes you should make for a day based on your provided ingredients.
+Yum Me! is a recipe generator that suggests dishes you should make for a day based on your diet and user provided ingredients.
 
 ### App Evaluation
 - **Category:** Food Suggestion.
