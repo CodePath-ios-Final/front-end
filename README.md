@@ -31,15 +31,14 @@ Yum Me! is a recipe generator that suggests dishes you should make for a day bas
 [ ] Users can add their dietary preferences.
 [ ] Users can add their grocery list and preferred items in their pantry.
 [ ] Users can get daily recipes depending on what items are expiring closer to the date.
-[ ] Users can create their own recipes (add in the future).
 [ ] Users can share recipes with others.
 [ ] Users can rate recipes.
 
 
 **Optional Nice-to-have Stories**
-
-* We should have an image recognizer so that users can capture a photo of their fridge's shelves or the recipt from their grocery shopping then Yum Me! will recognize the ingredients available and suggest recipes based on those.
-* Users can add their calories limit for the day and Yum Me! will suggest dishes within that limit.
+[ ] Users can create their own recipes.
+[ ] Users can capture a photo of their fridge's shelves or the recipt from their grocery shopping then Yum Me! will recognize the ingredients available and suggest recipes based on those.
+[ ]Users can add their calories limit for the day and Yum Me! will suggest dishes within that limit.
 
 ### 2. Screen Archetypes
 
@@ -68,7 +67,7 @@ Yum Me! is a recipe generator that suggests dishes you should make for a day bas
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="http://g.recordit.co/LVqFme6tJo.gif" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
