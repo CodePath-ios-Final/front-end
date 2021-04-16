@@ -65,19 +65,83 @@ Yum Me! is a recipe generator that suggests dishes you should make for a day bas
 ## Wireframes
 <img src="http://g.recordit.co/LVqFme6tJo.gif" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
+### Digital Wireframes & Mockups
+<img src="http://g.recordit.co/IDAtUjv2A1.gif" width=600>
 
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+### Recipes		
+| Property | Type | Description |
+| --- | --- | --- |
+| recipeId | String | unique ID for the recipe|
+| recipeName | String | name for recipe |
+| recipeDescription | String | description for recipe |
+| recipePhoto | String | recipe photo |
+| instructions | array	| cooking instructions for the recipe |
+| cookTime | Integer | recipe's average cooking time |
+| ingredients | map | map of recipe's ingredientIDs |
+| dietaryPreferences | map | map of the recipe's dietary preferences |
+		
+### Users		
+| Property | Type | Description |
+| --- | --- | --- |
+| userId | String | unique ID for the user |
+| provider| String | authentication provider for the user |
+| name | String | user's greeting name |
+| dietaryRestriction | map | user's chosen dietary restrictions |
+| email | String | user's email |
+| password | String | user's password |
+| recipeHistory | array | user's past cooked recipes |
+| pantry | map | user's ingredients in pantry | 
+		
+### Ingredients		
+| Property | Type | Description |
+| --- | --- | --- |
+| ingredientID | String | unique ID for the ingredient |
+| dietaryRetriction | map | dietary restriction the ingredient can be featured in |
+| ingredientName | String | ingredient's name | 
+
 ### Networking
-- Authentication with Firebase Firestore.
-- Dietary restriction:
-	- For new users: Add their dietary restriction to Firestore.
-	- For existing users: Fetch their dietary restriction from Firestore.
-- Add the items they have for the day to Firestore.
-- Fetch all the recipe from Firebase and filter them based on those ingredient.
-- Add/update/delete users' profile through the setting section.
+
+- Onboarding
+  - (Update/PUT) Add  or update user’s personal information
+```
+self.ref.child("users").child(user.uid).setValue(["name": name])
+self.ref.child("users").child(user.uid).setValue(["email": email]
+self.ref.child("users").child(user.uid).setValue(["provider": providerID]) 
+```
+  - (Update/PUT) Add  or update user’s dietary recommendations
+
+```self.ref.child("users").child(user.uid).setValue(["diet":diet])```
+  - (Update/PUT) Add  or update user’s pantry ingredients
+```self.ref.child("users").child(user.uid).setValue(["ingredients": ingredient])```
+- Home page
+  - (Read/GET) Get user’s dietary recommendations for recipe recommendations
+  - (Read/GET) Get user’s pantry ingredients for recipe recommendations
+  - (Read/GET) Get all recipes
+```let userID = Auth.auth().currentUser?.uid
+ref.child("users").child(userID!).observeSingleEvent(of: .value, with: { (snapshot) in
+  // Get user value
+  let value = snapshot.value as? NSDictionary
+  let username = value?["username"] as? String ?? ""
+  let user = User(username: username)
+
+  // ...
+  }) { (error) in
+    print(error.localizedDescription)
+}
+```
+- Recipe Page
+  - (Read/Get) get recipe’s information
+  - (Create/POST) Add recipe to user’s recipe history
+```self.ref.child("users").child(user.uid).setValue(["recipeHistory": recipe])```
+- Update pantry page
+  - (Delete) delete ingredients from user’s pantry
+```self.ref.child("users").child(user.uid).removeValue(["pantry": ingredient])```
+Review Recipe Page
+  - (Create/POST) Add user’s review to recipe
+```self.ref.child("users/\(user.uid)/recipeHistory").setValue(recipe)```
+- Recipe History
+  - (Read/GET) Get user’s recipe history
