@@ -76,62 +76,46 @@ Yum Me! is a recipe generator that suggests dishes you should make for a day bas
 | Property | Type | Description |
 | --- | --- | --- |
 | recipeId | String | unique ID for the recipe|
-| --- | --- | --- |
 | recipeName | String | name for recipe |
-| --- | --- | --- |
 | recipeDescription | String | description for recipe |
-| --- | --- | --- |
 | recipePhoto | String | recipe photo |
-| --- | --- | --- |
 | instructions | array	| cooking instructions for the recipe |
-| --- | --- | --- |
 | cookTime | Integer | recipe's average cooking time |
-| --- | --- | --- |
 | ingredients | map | map of recipe's ingredientIDs |
-| --- | --- | --- |
 | dietaryPreferences | map | map of the recipe's dietary preferences |
-| --- | --- | --- |
 		
 ### Users		
 | Property | Type | Description |
 | --- | --- | --- |
 | userId | String | unique ID for the user |
-| --- | --- | --- |
 | provider| String | authentication provider for the user |
-| --- | --- | --- |
 | name | String | user's greeting name |
-| --- | --- | --- |
 | dietaryRestriction | map | user's chosen dietary restrictions |
-| --- | --- | --- |
 | email | String | user's email |
-| --- | --- | --- |
 | password | String | user's password |
-| --- | --- | --- |
 | recipeHistory | array | user's past cooked recipes |
-| --- | --- | --- |
 | pantry | map | user's ingredients in pantry | 
-| --- | --- | --- |
 		
 ### Ingredients		
 | Property | Type | Description |
 | --- | --- | --- |
 | ingredientID | String | unique ID for the ingredient |
-| --- | --- | --- |
 | dietaryRetriction | map | dietary restriction the ingredient can be featured in |
-| --- | --- | --- |
 | ingredientName | String | ingredient's name | 
-| --- | --- | --- |
 
 ### Networking
 
 - Onboarding
   - (Update/PUT) Add  or update user’s personal information
-```self.ref.child("users").child(user.uid).setValue(["name": name])```
-```self.ref.child("users").child(user.uid).setValue(["email": email])```
-```self.ref.child("users").child(user.uid).setValue(["provider": providerID])```
-    - (Update/PUT) Add  or update user’s dietary recommendations
+```
+self.ref.child("users").child(user.uid).setValue(["name": name])
+self.ref.child("users").child(user.uid).setValue(["email": email]
+self.ref.child("users").child(user.uid).setValue(["provider": providerID]) 
+```
+  - (Update/PUT) Add  or update user’s dietary recommendations
+
 ```self.ref.child("users").child(user.uid).setValue(["diet":diet])```
-    - (Update/PUT) Add  or update user’s pantry ingredients
+  - (Update/PUT) Add  or update user’s pantry ingredients
 ```self.ref.child("users").child(user.uid).setValue(["ingredients": ingredient])```
 - Home page
   - (Read/GET) Get user’s dietary recommendations for recipe recommendations
@@ -147,7 +131,7 @@ ref.child("users").child(userID!).observeSingleEvent(of: .value, with: { (snapsh
   // ...
   }) { (error) in
     print(error.localizedDescription)
-}```
+}
 ```
 - Recipe Page
   - (Read/Get) get recipe’s information
