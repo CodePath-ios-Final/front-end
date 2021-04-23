@@ -27,6 +27,8 @@ Yum Me! is a recipe generator that suggests dishes you should make for a day bas
 [ ] Users can sign up and create an account.<br>
 [ ] Users can add their dietary preferences.<br>
 [ ] Users can add their grocery list and preferred items in their pantry.<br>
+[x] Users can see the recommended recipes for the day<br>
+[x] Users can see their recipe history<br>
 [ ] Users can get daily recipes depending on what items are expiring closer to the date.<br>
 [ ] Users can share recipes with others.<br>
 [ ] Users can rate recipes.<br>
