@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		200D046F61F83A4127E460D8 /* Pods_YumMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E608182950B814DBDB3CC66 /* Pods_YumMe.framework */; };
-		334B98E0F8170FF6C943D008 /* Pods_YumMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882B0F61EA034F7944A67EC6 /* Pods_YumMeTests.framework */; };
+		05E6F74FBFA5EAA041E558E4 /* Pods_YumMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DD449F74AA5402547EBA01 /* Pods_YumMe.framework */; };
+		11377EAB616066E3D68E78E0 /* Pods_YumMe_YumMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4291CEB5143738438B150545 /* Pods_YumMe_YumMeUITests.framework */; };
 		479B45B52633760200A5FA02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479B45B42633760200A5FA02 /* GoogleService-Info.plist */; };
+		620C401E61C6182DB383DB45 /* Pods_YumMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA7D23E68B837F3187A2403 /* Pods_YumMeTests.framework */; };
 		62AFC3242610215B0021DEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AFC3232610215B0021DEF9 /* AppDelegate.swift */; };
 		62AFC3262610215B0021DEF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AFC3252610215B0021DEF9 /* SceneDelegate.swift */; };
 		62AFC3282610215B0021DEF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AFC3272610215B0021DEF9 /* ViewController.swift */; };
@@ -18,11 +19,14 @@
 		62AFC330261021620021DEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AFC32E261021620021DEF9 /* LaunchScreen.storyboard */; };
 		62AFC33B261021630021DEF9 /* YumMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AFC33A261021630021DEF9 /* YumMeTests.swift */; };
 		62AFC346261021630021DEF9 /* YumMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AFC345261021630021DEF9 /* YumMeUITests.swift */; };
-		9EF43831263357A400136510 /* HistoryRecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF43830263357A400136510 /* HistoryRecipeTableViewCell.swift */; };
-		9EFD5978262A02270096772D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD5977262A02270096772D /* HomeViewController.swift */; };
-		9EFD5980262A08D10096772D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD597F262A08D10096772D /* SettingsViewController.swift */; };
-		9EFD5985262A08ED0096772D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD5984262A08ED0096772D /* HistoryViewController.swift */; };
-		9A8B37B4C0B227A40D335B82 /* Pods_YumMe_YumMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FF9FCF38CC38A26D08A20B /* Pods_YumMe_YumMeUITests.framework */; };
+		9E4C4FD226338EA400518501 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FCE26338EA200518501 /* HistoryViewController.swift */; };
+		9E4C4FD326338EA400518501 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FCF26338EA300518501 /* SettingsViewController.swift */; };
+		9E4C4FD426338EA400518501 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FD026338EA300518501 /* HomeViewController.swift */; };
+		9E4C4FD526338EA400518501 /* HistoryRecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FD126338EA400518501 /* HistoryRecipeTableViewCell.swift */; };
+		9EF43831263357A400136510 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		9EFD5978262A02270096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		9EFD5980262A08D10096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		9EFD5985262A08ED0096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10D5B339F15B054625E637DF /* Pods-YumMe-YumMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe-YumMeUITests.release.xcconfig"; path = "Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		211B83CF16211ADE62BFF7F4 /* Pods-YumMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe.release.xcconfig"; path = "Target Support Files/Pods-YumMe/Pods-YumMe.release.xcconfig"; sourceTree = "<group>"; };
-		2674B06D75DE624CA99BB173 /* Pods-YumMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMeTests.release.xcconfig"; path = "Target Support Files/Pods-YumMeTests/Pods-YumMeTests.release.xcconfig"; sourceTree = "<group>"; };
-		467BDB146332A9EA840E89BF /* Pods-YumMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe.debug.xcconfig"; path = "Target Support Files/Pods-YumMe/Pods-YumMe.debug.xcconfig"; sourceTree = "<group>"; };
+		15DD449F74AA5402547EBA01 /* Pods_YumMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YumMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D41E2E8F70F6F5B5430776 /* Pods-YumMe-YumMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe-YumMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4291CEB5143738438B150545 /* Pods_YumMe_YumMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YumMe_YumMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		479B45B42633760200A5FA02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		62AFC3202610215B0021DEF9 /* YumMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AFC3232610215B0021DEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +65,16 @@
 		62AFC341261021630021DEF9 /* YumMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AFC345261021630021DEF9 /* YumMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumMeUITests.swift; sourceTree = "<group>"; };
 		62AFC347261021630021DEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4C4FCE26338EA200518501 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		9E4C4FCF26338EA300518501 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9E4C4FD026338EA300518501 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9E4C4FD126338EA400518501 /* HistoryRecipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRecipeTableViewCell.swift; sourceTree = "<group>"; };
+		A3FF8944A977AEB56F548066 /* Pods-YumMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMeTests.debug.xcconfig"; path = "Target Support Files/Pods-YumMeTests/Pods-YumMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB43A03D2B7E3829C36B0625 /* Pods-YumMe-YumMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe-YumMeUITests.release.xcconfig"; path = "Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BAA7D23E68B837F3187A2403 /* Pods_YumMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YumMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2516036BFD7527B520E54CA /* Pods-YumMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe.release.xcconfig"; path = "Target Support Files/Pods-YumMe/Pods-YumMe.release.xcconfig"; sourceTree = "<group>"; };
+		C9CE3A8976569AD95924FFAC /* Pods-YumMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe.debug.xcconfig"; path = "Target Support Files/Pods-YumMe/Pods-YumMe.debug.xcconfig"; sourceTree = "<group>"; };
+		EA0F720AD109F8A34503D809 /* Pods-YumMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMeTests.release.xcconfig"; path = "Target Support Files/Pods-YumMeTests/Pods-YumMeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				200D046F61F83A4127E460D8 /* Pods_YumMe.framework in Frameworks */,
+				05E6F74FBFA5EAA041E558E4 /* Pods_YumMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				334B98E0F8170FF6C943D008 /* Pods_YumMeTests.framework in Frameworks */,
+				620C401E61C6182DB383DB45 /* Pods_YumMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,33 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8B37B4C0B227A40D335B82 /* Pods_YumMe_YumMeUITests.framework in Frameworks */,
+				11377EAB616066E3D68E78E0 /* Pods_YumMe_YumMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E9277FBE0C068145CFD5A6A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6E608182950B814DBDB3CC66 /* Pods_YumMe.framework */,
-				C3FF9FCF38CC38A26D08A20B /* Pods_YumMe_YumMeUITests.framework */,
-				882B0F61EA034F7944A67EC6 /* Pods_YumMeTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		62AFC3172610215B0021DEF9 = {
 			isa = PBXGroup;
 			children = (
-				9EFD5976262A01FD0096772D /* ViewControllers */,
+				9E4C4FCD26338E8700518501 /* ViewControllers */,
 				62AFC3222610215B0021DEF9 /* YumMe */,
 				62AFC339261021630021DEF9 /* YumMeTests */,
 				62AFC344261021630021DEF9 /* YumMeUITests */,
 				62AFC3212610215B0021DEF9 /* Products */,
-				B02E3772F7FB17A46C86F6AA /* Pods */,
-				2E9277FBE0C068145CFD5A6A /* Frameworks */,
+				97B2A675519AFFA27BB02F6E /* Pods */,
+				9C8DD67DFEEA3FB8A2D20BAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +161,40 @@
 			path = YumMeUITests;
 			sourceTree = "<group>";
 		};
+		97B2A675519AFFA27BB02F6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE3A8976569AD95924FFAC /* Pods-YumMe.debug.xcconfig */,
+				C2516036BFD7527B520E54CA /* Pods-YumMe.release.xcconfig */,
+				23D41E2E8F70F6F5B5430776 /* Pods-YumMe-YumMeUITests.debug.xcconfig */,
+				AB43A03D2B7E3829C36B0625 /* Pods-YumMe-YumMeUITests.release.xcconfig */,
+				A3FF8944A977AEB56F548066 /* Pods-YumMeTests.debug.xcconfig */,
+				EA0F720AD109F8A34503D809 /* Pods-YumMeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C8DD67DFEEA3FB8A2D20BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15DD449F74AA5402547EBA01 /* Pods_YumMe.framework */,
+				4291CEB5143738438B150545 /* Pods_YumMe_YumMeUITests.framework */,
+				BAA7D23E68B837F3187A2403 /* Pods_YumMeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E4C4FCD26338E8700518501 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E4C4FD126338EA400518501 /* HistoryRecipeTableViewCell.swift */,
+				9E4C4FCE26338EA200518501 /* HistoryViewController.swift */,
+				9E4C4FD026338EA300518501 /* HomeViewController.swift */,
+				9E4C4FCF26338EA300518501 /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,11 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62AFC34A261021630021DEF9 /* Build configuration list for PBXNativeTarget "YumMe" */;
 			buildPhases = (
-				305122F363E0D492D8C0116D /* [CP] Check Pods Manifest.lock */,
+				868C5021AF15373F2887CCCE /* [CP] Check Pods Manifest.lock */,
 				62AFC31C2610215B0021DEF9 /* Sources */,
 				62AFC31D2610215B0021DEF9 /* Frameworks */,
 				62AFC31E2610215B0021DEF9 /* Resources */,
-				8F0743CA7FA6E1F13678A6E9 /* [CP] Embed Pods Frameworks */,
+				0F41E499D0F180EE04938518 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,7 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62AFC34D261021630021DEF9 /* Build configuration list for PBXNativeTarget "YumMeTests" */;
 			buildPhases = (
-				FA5D829FD243CFFB24FF1E72 /* [CP] Check Pods Manifest.lock */,
+				05BF1105420333502664992B /* [CP] Check Pods Manifest.lock */,
 				62AFC332261021630021DEF9 /* Sources */,
 				62AFC333261021630021DEF9 /* Frameworks */,
 				62AFC334261021630021DEF9 /* Resources */,
@@ -203,11 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62AFC350261021630021DEF9 /* Build configuration list for PBXNativeTarget "YumMeUITests" */;
 			buildPhases = (
-				93E57DD4C706456E9AD1D03C /* [CP] Check Pods Manifest.lock */,
+				ECE2FA58F67ACD0D328A339B /* [CP] Check Pods Manifest.lock */,
 				62AFC33D261021630021DEF9 /* Sources */,
 				62AFC33E261021630021DEF9 /* Frameworks */,
 				62AFC33F261021630021DEF9 /* Resources */,
-				7143F7C2A40BB37CB61C4865 /* [CP] Embed Pods Frameworks */,
+				310910BCAABCD4ADEB0FDA5C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,85 +327,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		305122F363E0D492D8C0116D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YumMe-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7143F7C2A40BB37CB61C4865 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F0743CA7FA6E1F13678A6E9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		93E57DD4C706456E9AD1D03C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YumMe-YumMeUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA5D829FD243CFFB24FF1E72 /* [CP] Check Pods Manifest.lock */ = {
+		05BF1105420333502664992B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -390,6 +349,84 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		0F41E499D0F180EE04938518 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		310910BCAABCD4ADEB0FDA5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868C5021AF15373F2887CCCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YumMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE2FA58F67ACD0D328A339B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YumMe-YumMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -399,11 +436,15 @@
 			files = (
 				62AFC3282610215B0021DEF9 /* ViewController.swift in Sources */,
 				62AFC3242610215B0021DEF9 /* AppDelegate.swift in Sources */,
-				9EF43831263357A400136510 /* HistoryRecipeTableViewCell.swift in Sources */,
+				9EF43831263357A400136510 /* (null) in Sources */,
 				62AFC3262610215B0021DEF9 /* SceneDelegate.swift in Sources */,
-				9EFD5985262A08ED0096772D /* HistoryViewController.swift in Sources */,
-				9EFD5980262A08D10096772D /* SettingsViewController.swift in Sources */,
-				9EFD5978262A02270096772D /* HomeViewController.swift in Sources */,
+				9EFD5985262A08ED0096772D /* (null) in Sources */,
+				9E4C4FD426338EA400518501 /* HomeViewController.swift in Sources */,
+				9EFD5980262A08D10096772D /* (null) in Sources */,
+				9E4C4FD526338EA400518501 /* HistoryRecipeTableViewCell.swift in Sources */,
+				9EFD5978262A02270096772D /* (null) in Sources */,
+				9E4C4FD226338EA400518501 /* HistoryViewController.swift in Sources */,
+				9E4C4FD326338EA400518501 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +617,7 @@
 		};
 		62AFC34B261021630021DEF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 467BDB146332A9EA840E89BF /* Pods-YumMe.debug.xcconfig */;
+			baseConfigurationReference = C9CE3A8976569AD95924FFAC /* Pods-YumMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -596,7 +637,7 @@
 		};
 		62AFC34C261021630021DEF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 211B83CF16211ADE62BFF7F4 /* Pods-YumMe.release.xcconfig */;
+			baseConfigurationReference = C2516036BFD7527B520E54CA /* Pods-YumMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -616,7 +657,7 @@
 		};
 		62AFC34E261021630021DEF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A937CAF9A696A409C7DCD094 /* Pods-YumMeTests.debug.xcconfig */;
+			baseConfigurationReference = A3FF8944A977AEB56F548066 /* Pods-YumMeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -639,7 +680,7 @@
 		};
 		62AFC34F261021630021DEF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2674B06D75DE624CA99BB173 /* Pods-YumMeTests.release.xcconfig */;
+			baseConfigurationReference = EA0F720AD109F8A34503D809 /* Pods-YumMeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -662,7 +703,7 @@
 		};
 		62AFC351261021630021DEF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0C02A60E0E57700CAE8A07B /* Pods-YumMe-YumMeUITests.debug.xcconfig */;
+			baseConfigurationReference = 23D41E2E8F70F6F5B5430776 /* Pods-YumMe-YumMeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -683,7 +724,7 @@
 		};
 		62AFC352261021630021DEF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10D5B339F15B054625E637DF /* Pods-YumMe-YumMeUITests.release.xcconfig */;
+			baseConfigurationReference = AB43A03D2B7E3829C36B0625 /* Pods-YumMe-YumMeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
