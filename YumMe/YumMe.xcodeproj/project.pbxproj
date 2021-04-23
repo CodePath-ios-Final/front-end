@@ -15,6 +15,10 @@
 		62AFC330261021620021DEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AFC32E261021620021DEF9 /* LaunchScreen.storyboard */; };
 		62AFC33B261021630021DEF9 /* YumMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AFC33A261021630021DEF9 /* YumMeTests.swift */; };
 		62AFC346261021630021DEF9 /* YumMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AFC345261021630021DEF9 /* YumMeUITests.swift */; };
+		9EF43831263357A400136510 /* HistoryRecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF43830263357A400136510 /* HistoryRecipeTableViewCell.swift */; };
+		9EFD5978262A02270096772D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD5977262A02270096772D /* HomeViewController.swift */; };
+		9EFD5980262A08D10096772D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD597F262A08D10096772D /* SettingsViewController.swift */; };
+		9EFD5985262A08ED0096772D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD5984262A08ED0096772D /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		62AFC341261021630021DEF9 /* YumMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AFC345261021630021DEF9 /* YumMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumMeUITests.swift; sourceTree = "<group>"; };
 		62AFC347261021630021DEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF43830263357A400136510 /* HistoryRecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRecipeTableViewCell.swift; sourceTree = "<group>"; };
+		9EFD5977262A02270096772D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9EFD597F262A08D10096772D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9EFD5984262A08ED0096772D /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		62AFC3172610215B0021DEF9 = {
 			isa = PBXGroup;
 			children = (
+				9EFD5976262A01FD0096772D /* ViewControllers */,
 				62AFC3222610215B0021DEF9 /* YumMe */,
 				62AFC339261021630021DEF9 /* YumMeTests */,
 				62AFC344261021630021DEF9 /* YumMeUITests */,
@@ -126,6 +135,17 @@
 				62AFC347261021630021DEF9 /* Info.plist */,
 			);
 			path = YumMeUITests;
+			sourceTree = "<group>";
+		};
+		9EFD5976262A01FD0096772D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD5977262A02270096772D /* HomeViewController.swift */,
+				9EFD597F262A08D10096772D /* SettingsViewController.swift */,
+				9EFD5984262A08ED0096772D /* HistoryViewController.swift */,
+				9EF43830263357A400136510 /* HistoryRecipeTableViewCell.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +280,11 @@
 			files = (
 				62AFC3282610215B0021DEF9 /* ViewController.swift in Sources */,
 				62AFC3242610215B0021DEF9 /* AppDelegate.swift in Sources */,
+				9EF43831263357A400136510 /* HistoryRecipeTableViewCell.swift in Sources */,
 				62AFC3262610215B0021DEF9 /* SceneDelegate.swift in Sources */,
+				9EFD5985262A08ED0096772D /* HistoryViewController.swift in Sources */,
+				9EFD5980262A08D10096772D /* SettingsViewController.swift in Sources */,
+				9EFD5978262A02270096772D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
