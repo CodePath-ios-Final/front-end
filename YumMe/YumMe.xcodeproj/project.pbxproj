@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -168,7 +168,6 @@
 				A937CAF9A696A409C7DCD094 /* Pods-YumMeTests.debug.xcconfig */,
 				2674B06D75DE624CA99BB173 /* Pods-YumMeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -184,6 +183,7 @@
 				62AFC31D2610215B0021DEF9 /* Frameworks */,
 				62AFC31E2610215B0021DEF9 /* Resources */,
 				8F0743CA7FA6E1F13678A6E9 /* [CP] Embed Pods Frameworks */,
+				536ED36FBC37B0DFF34CD43B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +222,7 @@
 				62AFC33E261021630021DEF9 /* Frameworks */,
 				62AFC33F261021630021DEF9 /* Resources */,
 				7143F7C2A40BB37CB61C4865 /* [CP] Embed Pods Frameworks */,
+				92AD78D553D759AA33D4057C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,6 +327,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		536ED36FBC37B0DFF34CD43B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7143F7C2A40BB37CB61C4865 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,6 +376,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AD78D553D759AA33D4057C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		93E57DD4C706456E9AD1D03C /* [CP] Check Pods Manifest.lock */ = {
