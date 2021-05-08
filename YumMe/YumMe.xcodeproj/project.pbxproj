@@ -23,10 +23,10 @@
 		9E4C4FD326338EA400518501 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FCF26338EA300518501 /* SettingsViewController.swift */; };
 		9E4C4FD426338EA400518501 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FD026338EA300518501 /* HomeViewController.swift */; };
 		9E4C4FD526338EA400518501 /* HistoryRecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FD126338EA400518501 /* HistoryRecipeTableViewCell.swift */; };
-		9EF43831263357A400136510 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		9EFD5978262A02270096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
-		9EFD5980262A08D10096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
-		9EFD5985262A08ED0096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		9EF43831263357A400136510 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		9EFD5978262A02270096772D /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		9EFD5980262A08D10096772D /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		9EFD5985262A08ED0096772D /* BuildFile in Sources */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,6 +207,7 @@
 				62AFC31D2610215B0021DEF9 /* Frameworks */,
 				62AFC31E2610215B0021DEF9 /* Resources */,
 				0F41E499D0F180EE04938518 /* [CP] Embed Pods Frameworks */,
+				5AB0C889E8D3C1A8D71B388F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +246,7 @@
 				62AFC33E261021630021DEF9 /* Frameworks */,
 				62AFC33F261021630021DEF9 /* Resources */,
 				310910BCAABCD4ADEB0FDA5C /* [CP] Embed Pods Frameworks */,
+				8072BA1F44DDDAFF5205B6C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -383,6 +385,40 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5AB0C889E8D3C1A8D71B388F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumMe/Pods-YumMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8072BA1F44DDDAFF5205B6C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		868C5021AF15373F2887CCCE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -436,13 +472,13 @@
 			files = (
 				62AFC3282610215B0021DEF9 /* ViewController.swift in Sources */,
 				62AFC3242610215B0021DEF9 /* AppDelegate.swift in Sources */,
-				9EF43831263357A400136510 /* (null) in Sources */,
+				9EF43831263357A400136510 /* BuildFile in Sources */,
 				62AFC3262610215B0021DEF9 /* SceneDelegate.swift in Sources */,
-				9EFD5985262A08ED0096772D /* (null) in Sources */,
+				9EFD5985262A08ED0096772D /* BuildFile in Sources */,
 				9E4C4FD426338EA400518501 /* HomeViewController.swift in Sources */,
-				9EFD5980262A08D10096772D /* (null) in Sources */,
+				9EFD5980262A08D10096772D /* BuildFile in Sources */,
 				9E4C4FD526338EA400518501 /* HistoryRecipeTableViewCell.swift in Sources */,
-				9EFD5978262A02270096772D /* (null) in Sources */,
+				9EFD5978262A02270096772D /* BuildFile in Sources */,
 				9E4C4FD226338EA400518501 /* HistoryViewController.swift in Sources */,
 				9E4C4FD326338EA400518501 /* SettingsViewController.swift in Sources */,
 			);

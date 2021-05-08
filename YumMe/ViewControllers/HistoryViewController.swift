@@ -27,6 +27,7 @@ class HistoryViewController: UIViewController,UITableViewDataSource,UITableViewD
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         //configure cell
         let cell = historyTableView.dequeueReusableCell(withIdentifier: "HistoryRecipeCell") as! HistoryRecipeTableViewCell
         let recipe = recipes[indexPath.row]

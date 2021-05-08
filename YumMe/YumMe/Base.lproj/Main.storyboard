@@ -57,8 +57,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipe name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfU-ff-WDT">
-                                        <rect key="frame" x="15" y="49" width="99" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipe name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfU-ff-WDT">
+                                        <rect key="frame" x="15" y="49" width="162" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -82,8 +82,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipe name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKb-j6-HeW">
-                                        <rect key="frame" x="15" y="49" width="99" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipe name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eM2-Jk-Xw8">
+                                        <rect key="frame" x="15" y="51" width="162" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -107,8 +107,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipe name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa3-nk-s7L">
-                                        <rect key="frame" x="15" y="49" width="99" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipe name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FjL-t8-vlR">
+                                        <rect key="frame" x="15" y="49" width="162" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -118,7 +118,7 @@
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here are your recommended meals for today" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ums-uP-Xgs">
-                                <rect key="frame" x="34" y="196" width="340" height="54"/>
+                                <rect key="frame" x="34" y="186" width="340" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
@@ -134,11 +134,11 @@
                         <outlet property="breakfastRecipeName" destination="dfU-ff-WDT" id="nXX-IB-ymZ"/>
                         <outlet property="breakfastView" destination="sw3-JC-Mfn" id="mO3-Oy-MJI"/>
                         <outlet property="dinnerPicture" destination="Ynw-cV-OPn" id="NUh-SO-cZN"/>
-                        <outlet property="dinnerRecipeName" destination="aa3-nk-s7L" id="crZ-Dk-Wxc"/>
+                        <outlet property="dinnerRecipeName" destination="FjL-t8-vlR" id="7zl-lC-9eQ"/>
                         <outlet property="dinnerView" destination="O81-ev-snX" id="o5O-6X-KmL"/>
                         <outlet property="greetingLabel" destination="r06-la-c8f" id="qEX-wC-Odt"/>
                         <outlet property="lunchPicture" destination="UQF-OK-fZz" id="whY-gn-Zjl"/>
-                        <outlet property="lunchRecipeName" destination="mKb-j6-HeW" id="cFW-R5-zgB"/>
+                        <outlet property="lunchRecipeName" destination="eM2-Jk-Xw8" id="p5J-vx-lIN"/>
                         <outlet property="lunchView" destination="Xro-fd-bDf" id="auU-qU-OpP"/>
                         <outlet property="profilePicture" destination="Nfs-na-KBf" id="WTe-kW-Fw9"/>
                     </connections>
@@ -147,7 +147,7 @@
             </objects>
             <point key="canvasLocation" x="1782.608695652174" y="-131.25"/>
         </scene>
-        <!--Settings-->
+        <!--Settings View Controller-->
         <scene sceneID="bdW-mN-OW3">
             <objects>
                 <viewController id="PBh-Ap-z3u" customClass="SettingsViewController" customModule="YumMe" customModuleProvider="target" sceneMemberID="viewController">
@@ -155,15 +155,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOY-o8-6ZE">
-                                <rect key="frame" x="27" y="76" width="97" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlC-36-tHH">
-                                <rect key="frame" x="20" y="129" width="374" height="57"/>
+                                <rect key="frame" x="20" y="156" width="374" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Update user profile">
@@ -171,7 +164,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FmX-CH-KmC">
-                                <rect key="frame" x="20" y="213" width="374" height="57"/>
+                                <rect key="frame" x="20" y="240" width="374" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Update dietary restrictions">
@@ -179,7 +172,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvS-5w-Qi1">
-                                <rect key="frame" x="20" y="297" width="374" height="57"/>
+                                <rect key="frame" x="20" y="324" width="374" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Update pantry">
@@ -187,29 +180,36 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeW-9q-3wR">
-                                <rect key="frame" x="20" y="385" width="374" height="57"/>
+                                <rect key="frame" x="20" y="412" width="374" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="See recipe history">
                                     <color key="titleShadowColor" red="0.47571432590000001" green="0.47578632830000001" blue="0.47569853070000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9rp-dM-gkN" kind="presentation" id="Rgf-1G-ypD"/>
+                                    <segue destination="9rp-dM-gkN" kind="show" id="S04-xN-Y7R"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q20-pf-jyW">
-                                <rect key="frame" x="20" y="475" width="374" height="57"/>
+                                <rect key="frame" x="20" y="502" width="374" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Logout">
                                     <color key="titleShadowColor" red="0.47571432590000001" green="0.47578632830000001" blue="0.47569853070000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOY-o8-6ZE">
+                                <rect key="frame" x="27" y="102" width="97" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ml5-aL-YBQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape.fill" catalog="system" id="zze-hZ-QDh"/>
+                    <navigationItem key="navigationItem" id="Cwi-La-6cf"/>
                     <connections>
                         <outlet property="logoutButton" destination="q20-pf-jyW" id="oII-cn-7eT"/>
                         <outlet property="recipeHistoryButton" destination="CeW-9q-3wR" id="V1Q-H7-0Vq"/>
@@ -220,7 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YC5-Ad-3vj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1784" y="597"/>
+            <point key="canvasLocation" x="2692.753623188406" y="596.65178571428567"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tJh-aP-71L">
@@ -233,7 +233,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="1D7-xh-40P" kind="relationship" relationship="viewControllers" id="qcS-2b-sCS"/>
-                        <segue destination="PBh-Ap-z3u" kind="relationship" relationship="viewControllers" id="LUF-F7-U4i"/>
+                        <segue destination="zGE-69-hwb" kind="relationship" relationship="viewControllers" id="LUF-F7-U4i"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLP-C5-E1Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -249,7 +249,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5vs-it-1Nh">
-                                <rect key="frame" x="0.0" y="128" width="414" height="778"/>
+                                <rect key="frame" x="0.0" y="152" width="414" height="754"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -286,7 +286,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipe History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ibe-sk-RKc">
-                                <rect key="frame" x="20" y="73" width="169" height="33"/>
+                                <rect key="frame" x="20" y="99" width="169" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="textColor"/>
@@ -296,13 +296,33 @@
                         <viewLayoutGuide key="safeArea" id="d3n-qT-qbt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="471-v0-bbc"/>
                     <connections>
                         <outlet property="historyTableView" destination="5vs-it-1Nh" id="30k-lK-kyE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N8k-29-JXg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2544.9275362318845" y="596.65178571428567"/>
+            <point key="canvasLocation" x="3455.072463768116" y="596.65178571428567"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="4hh-72-odz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zGE-69-hwb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape.fill" catalog="system" id="zze-hZ-QDh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fql-0y-jho">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="PBh-Ap-z3u" kind="relationship" relationship="rootViewController" id="QqP-Y6-jMw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3t7-T2-cTg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1782.608695652174" y="596.65178571428567"/>
         </scene>
     </scenes>
     <resources>
