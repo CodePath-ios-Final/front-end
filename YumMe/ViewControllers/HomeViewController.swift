@@ -17,13 +17,17 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var greetingLabel: UILabel!
     @IBOutlet weak var profilePicture: UIImageView!
     @IBOutlet weak var breakfastRecipeName: UILabel!
+    @IBOutlet weak var breakfastViewButton: UIButton!
     @IBOutlet weak var breakfastPicture: UIImageView!
     @IBOutlet weak var lunchView: UIView!
     @IBOutlet weak var lunchRecipeName: UILabel!
     @IBOutlet weak var lunchPicture: UIImageView!
+    @IBOutlet weak var lunchViewButton: UIButton!
     @IBOutlet weak var dinnerView: UIView!
     @IBOutlet weak var dinnerRecipeName: UILabel!
     @IBOutlet weak var dinnerPicture: UIImageView!
+    @IBOutlet weak var dinnerViewButton: UIButton!
+    
     var db : Firestore!
     var docRef : DocumentReference!
     // change variable to dietary preference from the user
@@ -32,8 +36,11 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         breakfastView.layer.cornerRadius = 15
+        breakfastViewButton.layer.cornerRadius = 15
         lunchView.layer.cornerRadius = 15
+        lunchViewButton.layer.cornerRadius = 15
         dinnerView.layer.cornerRadius = 15
+        dinnerViewButton.layer.cornerRadius = 15
         
         //clear array from past recipes to get the 3 new recipes from firebase
         recipes.removeAll()
