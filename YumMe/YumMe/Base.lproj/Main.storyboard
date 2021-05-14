@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -41,7 +41,7 @@
                     </view>
                     <connections>
                         <outlet property="signInButton" destination="PuA-IS-lea" id="Mvd-pK-lW4"/>
-                        <segue destination="bfz-DM-i1y" kind="presentation" identifier="ToHome" modalPresentationStyle="fullScreen" id="muK-KW-Mkp"/>
+                        <segue destination="Z61-IJ-OI0" kind="presentation" identifier="ToDietaryPlan" modalPresentationStyle="fullScreen" id="zb0-wa-UOD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -226,10 +226,10 @@
             </objects>
             <point key="canvasLocation" x="3484" y="-131"/>
         </scene>
-        <!--View Controller-->
+        <!--Dietary Plan View Controller-->
         <scene sceneID="Uf4-bc-3mE">
             <objects>
-                <viewController id="Z61-IJ-OI0" customClass="ViewController" customModule="YumMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Z61-IJ-OI0" customClass="DietaryPlanViewController" customModule="YumMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MAq-4k-RbN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -241,6 +241,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTap:" destination="Z61-IJ-OI0" eventType="touchUpInside" id="sG6-MK-WTC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" fixedFrame="YES" text="Your Dietary Preferences" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5us-IV-hfw">
                                 <rect key="frame" x="43" y="107" width="328" height="32"/>
@@ -253,10 +256,13 @@
                         <viewLayoutGuide key="safeArea" id="Y3w-Bo-y51"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="bfz-DM-i1y" kind="presentation" identifier="ToHome" modalPresentationStyle="fullScreen" id="pJW-1j-bx1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V44-Mo-hAS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="152" y="810"/>
+            <point key="canvasLocation" x="-243" y="102"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="bdW-mN-OW3">
@@ -308,6 +314,10 @@
                                 <state key="normal" title="Logout">
                                     <color key="titleShadowColor" red="0.47571432590000001" green="0.47578632830000001" blue="0.47569853070000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onLogoutTap:" destination="PBh-Ap-z3u" eventType="touchUpInside" id="0gv-2O-vUH"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="ToLogin" modalPresentationStyle="fullScreen" id="Coq-wl-Lzz"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOY-o8-6ZE">
                                 <rect key="frame" x="27" y="102" width="97" height="33"/>
@@ -331,7 +341,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YC5-Ad-3vj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2692.753623188406" y="596.65178571428567"/>
+            <point key="canvasLocation" x="2357" y="1667"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tJh-aP-71L">
@@ -365,7 +375,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HistoryRecipeCell" rowHeight="135" id="LUp-zd-dyA" customClass="HistoryRecipeTableViewCell" customModule="YumMe" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="135"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="135"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LUp-zd-dyA" id="giU-43-ROr">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="135"/>
