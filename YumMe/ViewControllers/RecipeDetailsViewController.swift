@@ -56,30 +56,29 @@ class RecipeDetailsViewController: UIViewController {
         //Fetching ingredients from a firestore db map onject
         //var allIngredients: [EachIngredient] = []
         
-        //let db1 = Firestore.firestore()
         Firestore.firestore().collection("Recipes").document("EHyenkQfCs1x1yPOgJHL").getDocument {
             (document, error) in
-             if let err = error {
-                 print("Error getting documents: \(err)")tr
-             } else {
-                if let document = document?.data(),
-                    let doc = document["ingredients"]["ingredientName"] as? String {
-                    print(doc)
-                    for info in doc{
-                       // print(info)
+            if let document = document {
+                let ingredients_array = document["ingredients"] as? Array ?? [""]
+                print(ingredients_array)
+                self.ingredientsList.numberOfLines = 0
+                self.ingredientsList.attributedText = bulletPointList(strings: ingredients_array)
+                self.ingredientsList.sizeToFit()
+            }
+        }
                         
                         
                       //  if let ing2 = doc1
-                    }
+                    
                    /* let ingName = doc["ingredientName"] as? Array ?? [""]
                     print(ingName)
                     self.ingredientsList.numberOfLines = 0
                     self.ingredientsList.attributedText = bulletPointList(strings: ingName)
                     self.ingredientsList.sizeToFit()
                         */
-                    }
-             }
-        }
+                    
+             
+        
                
        /* db1.collection("Recipes").getDocuments() { (querySnapshot, err) in
             if let err = err {
@@ -150,6 +149,6 @@ class RecipeDetailsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+}
 
-    }
 }
