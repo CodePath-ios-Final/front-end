@@ -2,14 +2,7 @@
 # platform :ios, '9.0'
 
 # add the Firebase pod for Google Analytics
-pod 'Firebase/Analytics'
-pod 'Firebase/Core'
-pod 'Firebase/Auth'
-pod 'GoogleSignIn'
-pod 'Firebase/Firestore'
-pod 'FirebaseFirestoreSwift'
-pod 'Alamofire'
-pod 'AlamofireImage', '~> 4.1'
+
 # add pods for any other desired Firebase products
 # https://firebase.google.com/docs/ios/setup#available-pods
 
@@ -18,7 +11,14 @@ target 'YumMe' do
   use_frameworks!
 
   # Pods for YumMe
-
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
+  pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift'
+  pod 'Alamofire'
+  pod 'AlamofireImage', '~> 4.1'
   target 'YumMeTests' do
     inherit! :search_paths
     # Pods for testing

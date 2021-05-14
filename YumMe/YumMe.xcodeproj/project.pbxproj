@@ -11,6 +11,7 @@
 		11377EAB616066E3D68E78E0 /* Pods_YumMe_YumMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4291CEB5143738438B150545 /* Pods_YumMe_YumMeUITests.framework */; };
 		479B45B52633760200A5FA02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479B45B42633760200A5FA02 /* GoogleService-Info.plist */; };
 		620C401E61C6182DB383DB45 /* Pods_YumMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA7D23E68B837F3187A2403 /* Pods_YumMeTests.framework */; };
+		6214FC67264B59CF00B49214 /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6214FC66264B59CF00B49214 /* RecipeDetailsViewController.swift */; };
 		62AFC3242610215B0021DEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AFC3232610215B0021DEF9 /* AppDelegate.swift */; };
 		62AFC3262610215B0021DEF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AFC3252610215B0021DEF9 /* SceneDelegate.swift */; };
 		62AFC3282610215B0021DEF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AFC3272610215B0021DEF9 /* ViewController.swift */; };
@@ -23,10 +24,10 @@
 		9E4C4FD326338EA400518501 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FCF26338EA300518501 /* SettingsViewController.swift */; };
 		9E4C4FD426338EA400518501 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FD026338EA300518501 /* HomeViewController.swift */; };
 		9E4C4FD526338EA400518501 /* HistoryRecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FD126338EA400518501 /* HistoryRecipeTableViewCell.swift */; };
-		9EF43831263357A400136510 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
-		9EFD5978262A02270096772D /* BuildFile in Sources */ = {isa = PBXBuildFile; };
-		9EFD5980262A08D10096772D /* BuildFile in Sources */ = {isa = PBXBuildFile; };
-		9EFD5985262A08ED0096772D /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		9EF43831263357A400136510 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		9EFD5978262A02270096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		9EFD5980262A08D10096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		9EFD5985262A08ED0096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		23D41E2E8F70F6F5B5430776 /* Pods-YumMe-YumMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe-YumMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4291CEB5143738438B150545 /* Pods_YumMe_YumMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YumMe_YumMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		479B45B42633760200A5FA02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6214FC66264B59CF00B49214 /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
 		62AFC3202610215B0021DEF9 /* YumMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AFC3232610215B0021DEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62AFC3252610215B0021DEF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				9E4C4FCE26338EA200518501 /* HistoryViewController.swift */,
 				9E4C4FD026338EA300518501 /* HomeViewController.swift */,
 				9E4C4FCF26338EA300518501 /* SettingsViewController.swift */,
+				6214FC66264B59CF00B49214 /* RecipeDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -472,13 +475,14 @@
 			files = (
 				62AFC3282610215B0021DEF9 /* ViewController.swift in Sources */,
 				62AFC3242610215B0021DEF9 /* AppDelegate.swift in Sources */,
-				9EF43831263357A400136510 /* BuildFile in Sources */,
+				9EF43831263357A400136510 /* (null) in Sources */,
 				62AFC3262610215B0021DEF9 /* SceneDelegate.swift in Sources */,
-				9EFD5985262A08ED0096772D /* BuildFile in Sources */,
+				9EFD5985262A08ED0096772D /* (null) in Sources */,
 				9E4C4FD426338EA400518501 /* HomeViewController.swift in Sources */,
-				9EFD5980262A08D10096772D /* BuildFile in Sources */,
+				9EFD5980262A08D10096772D /* (null) in Sources */,
+				6214FC67264B59CF00B49214 /* RecipeDetailsViewController.swift in Sources */,
 				9E4C4FD526338EA400518501 /* HistoryRecipeTableViewCell.swift in Sources */,
-				9EFD5978262A02270096772D /* BuildFile in Sources */,
+				9EFD5978262A02270096772D /* (null) in Sources */,
 				9E4C4FD226338EA400518501 /* HistoryViewController.swift in Sources */,
 				9E4C4FD326338EA400518501 /* SettingsViewController.swift in Sources */,
 			);
