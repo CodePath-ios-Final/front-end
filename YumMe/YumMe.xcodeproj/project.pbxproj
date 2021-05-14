@@ -23,10 +23,11 @@
 		9E4C4FD326338EA400518501 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FCF26338EA300518501 /* SettingsViewController.swift */; };
 		9E4C4FD426338EA400518501 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FD026338EA300518501 /* HomeViewController.swift */; };
 		9E4C4FD526338EA400518501 /* HistoryRecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FD126338EA400518501 /* HistoryRecipeTableViewCell.swift */; };
-		9EF43831263357A400136510 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
-		9EFD5978262A02270096772D /* BuildFile in Sources */ = {isa = PBXBuildFile; };
-		9EFD5980262A08D10096772D /* BuildFile in Sources */ = {isa = PBXBuildFile; };
-		9EFD5985262A08ED0096772D /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		9EF43831263357A400136510 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		9EFD5978262A02270096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		9EFD5980262A08D10096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		9EFD5985262A08ED0096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		CBEE6AAE264DFAA600A5C662 /* DietPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE6AAD264DFAA600A5C662 /* DietPreferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		BAA7D23E68B837F3187A2403 /* Pods_YumMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YumMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2516036BFD7527B520E54CA /* Pods-YumMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe.release.xcconfig"; path = "Target Support Files/Pods-YumMe/Pods-YumMe.release.xcconfig"; sourceTree = "<group>"; };
 		C9CE3A8976569AD95924FFAC /* Pods-YumMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe.debug.xcconfig"; path = "Target Support Files/Pods-YumMe/Pods-YumMe.debug.xcconfig"; sourceTree = "<group>"; };
+		CBEE6AAD264DFAA600A5C662 /* DietPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPreferences.swift; sourceTree = "<group>"; };
 		EA0F720AD109F8A34503D809 /* Pods-YumMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMeTests.release.xcconfig"; path = "Target Support Files/Pods-YumMeTests/Pods-YumMeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,6 +193,7 @@
 				9E4C4FCE26338EA200518501 /* HistoryViewController.swift */,
 				9E4C4FD026338EA300518501 /* HomeViewController.swift */,
 				9E4C4FCF26338EA300518501 /* SettingsViewController.swift */,
+				CBEE6AAD264DFAA600A5C662 /* DietPreferences.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -472,13 +475,14 @@
 			files = (
 				62AFC3282610215B0021DEF9 /* ViewController.swift in Sources */,
 				62AFC3242610215B0021DEF9 /* AppDelegate.swift in Sources */,
-				9EF43831263357A400136510 /* BuildFile in Sources */,
+				9EF43831263357A400136510 /* (null) in Sources */,
 				62AFC3262610215B0021DEF9 /* SceneDelegate.swift in Sources */,
-				9EFD5985262A08ED0096772D /* BuildFile in Sources */,
+				9EFD5985262A08ED0096772D /* (null) in Sources */,
 				9E4C4FD426338EA400518501 /* HomeViewController.swift in Sources */,
-				9EFD5980262A08D10096772D /* BuildFile in Sources */,
+				9EFD5980262A08D10096772D /* (null) in Sources */,
 				9E4C4FD526338EA400518501 /* HistoryRecipeTableViewCell.swift in Sources */,
-				9EFD5978262A02270096772D /* BuildFile in Sources */,
+				CBEE6AAE264DFAA600A5C662 /* DietPreferences.swift in Sources */,
+				9EFD5978262A02270096772D /* (null) in Sources */,
 				9E4C4FD226338EA400518501 /* HistoryViewController.swift in Sources */,
 				9E4C4FD326338EA400518501 /* SettingsViewController.swift in Sources */,
 			);
