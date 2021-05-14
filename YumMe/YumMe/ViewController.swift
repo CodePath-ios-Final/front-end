@@ -6,14 +6,36 @@
 //
 
 import UIKit
+import GoogleSignIn
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GIDSignInDelegate {
     
     let box1 = DietPreferences(frame: CGRect(x: 70, y: 200, width: 30, height: 30))
     let box2 = DietPreferences(frame: CGRect(x: 70, y: 250, width: 30, height: 30))
     let box3 = DietPreferences(frame: CGRect(x: 70, y: 300, width: 30, height: 30))
     let box4 = DietPreferences(frame: CGRect(x: 70, y: 350, width: 30, height: 30))
     let box5 = DietPreferences(frame: CGRect(x: 70, y: 400, width: 30, height: 30))
+
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        if let unwrappedUser = user {
+            print("Performing signing in for the user at \(unwrappedUser.profile.email!)")
+            performSegue(withIdentifier: "ToHome", sender: self)
+        }
+        else {
+            print("Failed to login: No email found")
+        }
+    }
+    
+    func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!, withError error: Error!) {
+        // clean up after log out
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url)
+    }
+    
+
+    @IBOutlet var signInButton: GIDSignInButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,6 +83,18 @@ class ViewController: UIViewController {
         
     
         // Do any additional setup after loading the view.
+        GIDSignIn.sharedInstance()?.clientID = "224711502779-4u8cdk4945qedggafv366sikvielodr6.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance()?.delegate = self
+        GIDSignIn.sharedInstance()?.presentingViewController = self
+        
+        if GIDSignIn.sharedInstance() != nil {
+            // signed in
+            print("Hello I'm signed in")
+            performSegue(withIdentifier: "ToHome", sender: self)
+        }
+        else {
+            GIDSignIn.sharedInstance()?.signIn()
+        }
     }
     
     @objc func didTapCheckBox1() {
@@ -79,4 +113,3 @@ class ViewController: UIViewController {
         box5.setCheck()
     }
 }
-
