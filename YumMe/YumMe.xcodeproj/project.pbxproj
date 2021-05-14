@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05E6F74FBFA5EAA041E558E4 /* Pods_YumMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DD449F74AA5402547EBA01 /* Pods_YumMe.framework */; };
 		11377EAB616066E3D68E78E0 /* Pods_YumMe_YumMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4291CEB5143738438B150545 /* Pods_YumMe_YumMeUITests.framework */; };
+		474F706F264EDD050035E29D /* DietaryPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F706E264EDD050035E29D /* DietaryPlanViewController.swift */; };
 		479B45B52633760200A5FA02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479B45B42633760200A5FA02 /* GoogleService-Info.plist */; };
 		47C6A456264DCB9D0055FEC1 /* YumMe!.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47C6A455264DCB9C0055FEC1 /* YumMe!.jpg */; };
 		620C401E61C6182DB383DB45 /* Pods_YumMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA7D23E68B837F3187A2403 /* Pods_YumMeTests.framework */; };
@@ -28,6 +29,7 @@
 		9EFD5978262A02270096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9EFD5980262A08D10096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9EFD5985262A08ED0096772D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		CBEE6AAE264DFAA600A5C662 /* DietPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE6AAD264DFAA600A5C662 /* DietPreferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		15DD449F74AA5402547EBA01 /* Pods_YumMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YumMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D41E2E8F70F6F5B5430776 /* Pods-YumMe-YumMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe-YumMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-YumMe-YumMeUITests/Pods-YumMe-YumMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4291CEB5143738438B150545 /* Pods_YumMe_YumMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YumMe_YumMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		474F706E264EDD050035E29D /* DietaryPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietaryPlanViewController.swift; sourceTree = "<group>"; };
 		479B45B42633760200A5FA02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		47C6A455264DCB9C0055FEC1 /* YumMe!.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "YumMe!.jpg"; sourceTree = "<group>"; };
 		62AFC3202610215B0021DEF9 /* YumMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +79,7 @@
 		BAA7D23E68B837F3187A2403 /* Pods_YumMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YumMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2516036BFD7527B520E54CA /* Pods-YumMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe.release.xcconfig"; path = "Target Support Files/Pods-YumMe/Pods-YumMe.release.xcconfig"; sourceTree = "<group>"; };
 		C9CE3A8976569AD95924FFAC /* Pods-YumMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMe.debug.xcconfig"; path = "Target Support Files/Pods-YumMe/Pods-YumMe.debug.xcconfig"; sourceTree = "<group>"; };
+		CBEE6AAD264DFAA600A5C662 /* DietPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPreferences.swift; sourceTree = "<group>"; };
 		EA0F720AD109F8A34503D809 /* Pods-YumMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumMeTests.release.xcconfig"; path = "Target Support Files/Pods-YumMeTests/Pods-YumMeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +146,7 @@
 				62AFC331261021620021DEF9 /* Info.plist */,
 				479B45B42633760200A5FA02 /* GoogleService-Info.plist */,
 				47C6A455264DCB9C0055FEC1 /* YumMe!.jpg */,
+				474F706E264EDD050035E29D /* DietaryPlanViewController.swift */,
 			);
 			path = YumMe;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				9E4C4FCE26338EA200518501 /* HistoryViewController.swift */,
 				9E4C4FD026338EA300518501 /* HomeViewController.swift */,
 				9E4C4FCF26338EA300518501 /* SettingsViewController.swift */,
+				CBEE6AAD264DFAA600A5C662 /* DietPreferences.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -478,10 +484,12 @@
 				62AFC3242610215B0021DEF9 /* AppDelegate.swift in Sources */,
 				9EF43831263357A400136510 /* (null) in Sources */,
 				62AFC3262610215B0021DEF9 /* SceneDelegate.swift in Sources */,
+				474F706F264EDD050035E29D /* DietaryPlanViewController.swift in Sources */,
 				9EFD5985262A08ED0096772D /* (null) in Sources */,
 				9E4C4FD426338EA400518501 /* HomeViewController.swift in Sources */,
 				9EFD5980262A08D10096772D /* (null) in Sources */,
 				9E4C4FD526338EA400518501 /* HistoryRecipeTableViewCell.swift in Sources */,
+				CBEE6AAE264DFAA600A5C662 /* DietPreferences.swift in Sources */,
 				9EFD5978262A02270096772D /* (null) in Sources */,
 				9E4C4FD226338EA400518501 /* HistoryViewController.swift in Sources */,
 				9E4C4FD326338EA400518501 /* SettingsViewController.swift in Sources */,

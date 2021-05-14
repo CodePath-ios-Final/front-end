@@ -9,10 +9,12 @@ import UIKit
 import GoogleSignIn
 
 class ViewController: UIViewController, GIDSignInDelegate {
+    
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
         if let unwrappedUser = user {
             print("Performing signing in for the user at \(unwrappedUser.profile.email!)")
-            performSegue(withIdentifier: "ToHome", sender: self)
+            performSegue(withIdentifier: "ToDietaryPlan", sender: self)
+            
         }
         else {
             print("Failed to login: No email found")
@@ -32,6 +34,7 @@ class ViewController: UIViewController, GIDSignInDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         // Do any additional setup after loading the view.
         GIDSignIn.sharedInstance()?.clientID = "224711502779-4u8cdk4945qedggafv366sikvielodr6.apps.googleusercontent.com"
         GIDSignIn.sharedInstance()?.delegate = self
@@ -40,10 +43,9 @@ class ViewController: UIViewController, GIDSignInDelegate {
         if GIDSignIn.sharedInstance() != nil {
             // signed in
             print("Hello I'm signed in")
-            performSegue(withIdentifier: "ToHome", sender: self)
         }
         else {
-            GIDSignIn.sharedInstance()?.signIn()
+            GIDSignIn.sharedInstance().signIn()
         }
     }
 }
