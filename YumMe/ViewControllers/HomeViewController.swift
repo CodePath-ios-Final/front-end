@@ -65,7 +65,7 @@ class HomeViewController: UIViewController {
                 var urlString = self.recipes[0].data()!["recipePhoto"] as! String
                 var url = URL(string: urlString)!
                 self.breakfastPicture.af_setImage(withURL: url)
-                
+                 
                 //set lunch view
                 self.lunchRecipeName.text = self.recipes[1].data()!["recipeName"] as? String
                 //set lunch picture
@@ -80,8 +80,22 @@ class HomeViewController: UIViewController {
                 self.dinnerPicture.af_setImage(withURL: url)
         }
         }
+
+// Preparation before navigation to RecipeDetailsViewController
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    // Get the new view controller using segue.destination.
+    // Pass the selected object to the new view controller.
+    print("Loading up the RecipeDetailsViewController")
+    // Get the chosen recipe
     
+    //let button = sender as! UIButton
+    let recipe =  recipes[0].data()
+    // Pass the selected recipe to the RecipeDetailsViewController
+    let detailsViewController = segue.destination as!RecipeDetailsViewController
+    detailsViewController.recipe = recipe
     
 }
     
+}
+
 
